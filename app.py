@@ -28,7 +28,7 @@ def usePencil():
     canvas["cursor"] = "arrow"
 
 def useEraser():
-    stroke_color.set("white")
+    stroke_color.set("black")
     canvas["cursor"] = DOTBOX
 
 def paint(event):
