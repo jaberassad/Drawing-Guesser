@@ -73,4 +73,4 @@ The neural network takes as input an array representing the user's drawing. Belo
 
 The model is trained on 80% of the data while the rest is used for evaluation to reduce bias and have an accurate estimate on its performance.
 
-For more details on the training process, you can refer to the `training.py` script.
+For more details on the training process, you can refer to the `training.ipynb` script.
