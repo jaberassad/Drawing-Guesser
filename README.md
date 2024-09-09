@@ -1,19 +1,19 @@
-# QuickDraw Neural Network Training and Tkinter App
+# QuickDraw Neural Network Training and Tkinter App 
 
-## Overview
+## Overview 📝
 
 This project involves training a neural network to recognize and classify drawings made by users. The neural network is trained using data from the QuickDraw dataset and is integrated into a Tkinter application that allows users to draw and receive real-time predictions of their drawings.
 
-## Features
+## Features 
 
-- **Data**: Trained a feedforward neural network using public data from QuickDraw datasets.
-- **Neural Network**: Created a model using Tensorflow library that achives close to 90% accuracy.
-- **Real-Time Predictions**: Displays the top 5 most likely categories and their probabilities as the user draws.
-- **Tkinter Interface**: User-friendly drawing application built with Tkinter for drawing and predicting.
+- **Data** 📊: Trained a feedforward neural network using public data from QuickDraw datasets.
+- **Neural Network** 🧠: Created a model using the TensorFlow library that achieves close to 90% accuracy.
+- **Real-Time Predictions** ⚡: Displays the top 5 most likely categories and their probabilities as the user draws.
+- **Tkinter Interface** 🖌️: User-friendly drawing application built with Tkinter for drawing and predicting.
 
-## Getting Started
+## Getting Started 🚀
 
-### Prerequisites
+### Prerequisites 📦
 - TensorFlow
 - Tkinter
 - Pandas
@@ -21,13 +21,14 @@ This project involves training a neural network to recognize and classify drawin
 - PIL
 - Python 3.11 and up
 
-### Installation
+### Installation 🔧
 
-1. **Clone the Repository**
+1. **Clone the Repository** 
 
    ```bash
    git clone https://github.com/yourusername/quickdraw-tkinter-app.git
    cd quickdraw-tkinter-app
+
 
 2. **Run the tkinter app**
 
@@ -57,13 +58,13 @@ The neural network takes as input an array representing the user's drawing. Belo
    - Units: 40
    - Activation Function: ReLU
 
-6. **Output Layer**:
+6. **Output Layer** 🎯:
    - Units: Number of categories (equal to the number of classes in the dataset)
    - Activation Function: Softmax
 
-### Model Training
+### Model Training 📚
 
-- **Optimizer**: Adam
+- **Optimizer**: Adam 
 - **Loss Function**: Categorical Cross-Entropy
 - **Metrics**: Accuracy
 - **Epochs**: 10
