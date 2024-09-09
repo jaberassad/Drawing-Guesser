@@ -26,7 +26,7 @@ This project involves training a neural network to recognize and classify drawin
 1. **Clone the Repository** 
 
    ```bash
-   git clone https://github.com/yourusername/quickdraw-tkinter-app.git
+   git clone https://github.com/jaberassad/Drawing-Guesser.git
    cd Drawing-Guesser
 
 
